@@ -1,0 +1,23 @@
+# TEST GET/ WEBSITE
+
+GET http://localhost:8000
+
+### GET/dashboard WEBSITE
+
+GET http://localhost:8000/dashboard
+
+### DATA ENDPOINT
+GET http://localhost:8000/api/data
+
+### DATA ENDPOINT for adding a user
+POST http://localhost:8000/api/data
+Content-Type: application/json
+
+{
+    "name": "Razzaque"
+}
+
+### DATA ENDPOINT for deleting a user
+DELETE  http://localhost:8000/api/data
+
+
